@@ -26,7 +26,7 @@
 11. redis默认是16个库，数组下标从0开始，表示的是0号库，一直到15。我们可以使用select命令在数据库之间切换。
 12. Dbsize可以查看当前数据库的key数量，Flushdb用来清空当前数据库，Flushall清空所有的16个库，redis默认的端口号是6379。
 13. redis.conf在windows下在哪？
-14. key常见命令操作：待补充
+14. key常见命令操作：待补充         键？值的键？
 15. 持久化：RDB和AOF，RDB的全称是Redis DataBase,AOF的全称是Append Only File
     查看有没有起哪个服务：ps -ef | grep redis; lsof -i:6379; netstate XXX
 
